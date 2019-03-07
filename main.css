@@ -6,10 +6,15 @@ body {
     font-family: 'Roboto Mono', monospace !important;
 }
 
+
 /*Navigation styles*/
 .navbar {
 
     background-color: #113f67;
+}
+
+.nav-link:hover {
+    color: white !important;
 }
 
 /*header styles*/
@@ -78,8 +83,40 @@ body {
 #create-section-title .btn:hover {
     background-color: #65c6c4;
     border: none;
+    color: white;
 }
+
+
 
 #create-main-content .fas {
     color: #65c6c4 !important;
+
+}
+
+/*share-section-title styles*/
+#share-section-title {
+    background-color: #408ab4;
+    color: white;
+}
+
+#share-section-title .btn:hover {
+    background-color: #65c6c4;
+    border: none;
+    color: white;
+}
+
+#share-main-content .fas {
+    color: #65c6c4 !important;
+}
+
+/*Footer Styles*/
+.main-footer {
+    background-color: #113f67;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn-footer {
+    background-color: #65c6c4 !important;
+    color: white !important;
 }
