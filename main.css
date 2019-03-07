@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+    background: #333;
+    color: white;
+    font-family: 'Roboto Mono', monospace !important;
+}
+
+/*Navigation styles*/
+.navbar {
+
+    background-color: #113f67;
+}
+
+/*header styles*/
+#showcase-section {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("./img/social.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+
+}
+
+#showcase-section .home-inner {
+    padding-top: 200px;
+    color: white;
+}
+
+.bg-color {
+    background-color: #65c6c4 !important;
+}
+
+#showcase-section .card-form {
+    opacity: 0.9;
+}
+
+#showcase-section .fas {
+    color: white;
+    background: #65c6c4;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+
+
+.btn-hover:hover {
+    background-color: #113f67 !important;
+    color: white !important;
+    border: none;
+}
+
+/*Explore section*/
+#explore-section-title {
+    background-color: #408ab4;
+    color: white;
+}
+
+#explore-section-title .btn:hover {
+    background-color: #65c6c4;
+    border: none;
+    color: white;
+
+}
