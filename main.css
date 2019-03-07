@@ -67,3 +67,19 @@ body {
 #explore-main-content .fas {
     color: #65c6c4;
 }
+
+/*Create title styles*/
+
+#create-section-title {
+    background-color: #408ab4;
+    color: white;
+}
+
+#create-section-title .btn:hover {
+    background-color: #65c6c4;
+    border: none;
+}
+
+#create-main-content .fas {
+    color: #65c6c4 !important;
+}
