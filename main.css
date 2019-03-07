@@ -50,7 +50,7 @@ body {
     border: none;
 }
 
-/*Explore section*/
+/*Explore title section*/
 #explore-section-title {
     background-color: #408ab4;
     color: white;
@@ -61,4 +61,9 @@ body {
     border: none;
     color: white;
 
+}
+
+/*Explore main content styles*/
+#explore-main-content .fas {
+    color: #65c6c4;
 }
